@@ -1,0 +1,113 @@
+/* Consistent Styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.blu-block {
+  background-color: #3E50B4;
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+
+.blu-block p {
+  color: rgba(255, 255, 255, 0.70);
+}
+
+.blu-block ul {
+  list-style-type: none;
+}
+
+.blu-block li {
+  color: rgba(255, 255, 255, 0.70);
+  text-decoration: none;
+}
+
+.portrait {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.fright {
+  float: right;
+}
+
+.capt {
+  margin-top: 20px;
+}
+
+
+.wh-block {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+}
+
+.wh-block p {
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.serv {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+a {
+  color: #ff3f80;
+  border-bottom: 1px dotted #ff3f80;
+  padding: 0;
+}
+
+a:hover {
+  color: #ff3f80;
+  text-decoration: none;
+}
+/* Header */
+
+.title {
+  margin-bottom: 25px;
+}
+
+.head-img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.caption p {
+  margin: 0;
+  padding-left: 30px;
+}
+
+.head-img-wrap .caption {
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;
+  color: #fff;
+  left: 0;
+  margin: -50px 0;
+  width: 100%;
+  line-height: 50px;
+}
+
+.head-img .caption .simple-caption {
+  height: 30px;
+  width: 200px;
+  display: block;
+  text-align: center;
+}
+
+.t-mch {
+  width: 100%;
+  margin: -250px 0px;
+}
