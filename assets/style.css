@@ -47,6 +47,57 @@ body {
 }
 
 /* BEGIN
+***WELCOME
+***STYLES
+*/
+
+.welcome {
+  overflow: auto;
+  clear: both;
+  height: 100vh;
+  background: url('../assets/header.png') no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.welcome h1 {
+  padding-top: 30vh;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.welcome p {
+  text-shadow: 1px 1px 1px #000;
+}
+
+/* BEGIN
+***FEATURE
+***STYLES
+*/
+
+.third {
+  width: 33.333%;
+  float: left;
+}
+
+.features {
+  text-align: center;
+}
+
+.features h1 {
+  font-size: 24px;
+}
+
+.features p {
+  padding: 0 25px;
+}
+
+.features img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 25px 0;
+}
+
+/* BEGIN
 ***PROJECT
 ***STYLES
 */
@@ -89,7 +140,6 @@ body {
 .container {
   max-width: 1024px;
   margin: 0 auto;
-  background-color: #fff;
   text-align: center;
 }
 
