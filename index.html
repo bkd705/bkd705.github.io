@@ -1,18 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Brennen | Home</title>
+
+<head>
+
     <meta charset="utf-8">
-    <meta name="description" content="work development portfolio">
-    <meta name="author" content="Brennen Denomme">
-    <link rel="stylesheet" href="assets/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link href='https://fonts.googleapis.com/css?family=Oswald:700|Roboto' rel='stylesheet' type='text/css'>
-  </head>
+    <title>Brennen Denomme</title>
 
-  <body>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="assets/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+  <nav class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brennen Denomme</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+        <ul class="nav navbar-nav">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="" class="navbar-follow">Follow Me:</a></li>
+          <li><a href="http://twitter.com/bkd705"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+          <li><a href="http://instagram.com/bkd705"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+          <li><a href="http://github.com/bkd705"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron" id="hero">
+    <div class="container-fluid">
+      <h1> print 'Brennen Denomme' </h1>
+      <p> Designing, but mostly developing things since 1998.. (yeah, I did it in the womb) </p>
+
+      <a href="#about"><button class="btn btn-primary stalk">Stalk Me</button></a>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="about">
+    <div class="col-md-5 col-centered">
+      <img src="assets/avi.jpg" alt="Brennen Denomme Portrait" class="about">
+      <h3>Brennen</h3>
+      <hr class="divider">
+      <p>I am a 17 year old developer from Ontario, Canada. I am currently spending most of my time doing automation with python and learning malware analysis and pentesting. I also have experience with CSS, HTML, JS, and Java. I am starting college in September for Computer Programming and will hopefully go onto university for software engineering!</p>
+    </div>
+  </div>
+
+  <div class="jumbotron" id="skills">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 skills"><h2>I have experience with...</h2></div>
+      </div>
+      <div class="row  skills">
+        <div class="col-md-3">
+          <i class="devicon-python-plain dev-icon"></i>
+          <h3>Python</h3>
+        </div>
+        <div class="col-md-3">
+          <i class="devicon-java-plain dev-icon"></i>
+          <h3>Java</h3>
+        </div>
+        <div class="col-md-3">
+          <i class="devicon-html5-plain dev-icon"></i>
+          <h3>HTML5</h3>
+        </div>
+        <div class="col-md-3">
+          <i class="devicon-css3-plain dev-icon"></i>
+          <h3>CSS3</h3>
+        </div>
+      </div>
+      <div class="row second-row  skills">
+        <div class="col-md-3">
+          <i class="devicon-sass-original dev-icon"></i>
+          <h3>Sass</h3>
+        </div>
+        <div class="col-md-3">
+          <i class="devicon-javascript-plain dev-icon"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="col-md-3">
+          <i class="devicon-photoshop-plain dev-icon"></i>
+          <h3>Photoshop</h3>
+        </div>
+        <div class="col-md-3">
+          <i class="devicon-illustrator-plain dev-icon"></i>
+          <h3>Illustrator</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="projects" id="portfolio">
+      <img class="project" src="http://placehold.it/350x200" alt="Work 1"
+      ><img class="project" src="http://placehold.it/350x200" alt="Work 1"
+      ><img class="project" src="http://placehold.it/350x200" alt="Work 1">
+      <img class="project" src="http://placehold.it/350x200" alt="Work 1"
+      ><img class="project" src="http://placehold.it/350x200" alt="Work 1"
+      ><img class="project" src="http://placehold.it/350x200" alt="Work 1">
+      <img class="project" src="http://placehold.it/350x200" alt="Work 1"
+      ><img class="project" src="http://placehold.it/350x200" alt="Work 1"
+      ><img class="project" src="http://placehold.it/350x200" alt="Work 1">
+  </div>
 
 
-  </body>
-
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="assets/bootstrap.min.js"></script>
+</body>
 </html>
