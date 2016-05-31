@@ -1,0 +1,136 @@
+// Color Variables
+$main: #dd3626
+$light-text: #fbf9f9
+$dark-text: #473e3d
+
+
+body
+  font-family: 'Arimo', sans-serif
+  background-color: $main
+  color: $light-text !important
+
+a
+  color: $light-text !important
+
+  &:hover
+    border-bottom: 1px solid $light-text
+
+h1
+  font-family: 'Changa One', cursive
+  text-transform: uppercase
+
+.nav-logo
+  font-size: 24px
+  line-height: 15pt
+  text-transform: uppercase
+  font-weight: 700
+
+.navbar-default
+  background-color: $main
+
+.navbar-nav
+  margin-top: 1%
+  color: $light-text !important
+
+.navbar-text
+  color: $light-text !important
+
+.jumbotron
+  background-color: $main !important
+  text-align: center
+  .hero-text
+    width: 50%
+    margin: 20vh auto
+  a:hover
+    opacity: 0.7
+.hero
+  height: 85vh
+.hero-button
+  background-color: $main !important
+  color: $light-text !important
+  text-transform: uppercase
+  border: 2px solid $light-text !important
+
+.section
+  padding: 18% 0
+
+#about
+  background-color: $light-text
+  color: $main
+
+  h1
+    border-left: 8px solid $main
+    padding-left: 20px
+
+  p
+    color: $dark-text
+    padding-top: 4%
+
+.aside
+  text-align: center
+
+.avatar
+  margin-top: 10%
+
+#experience
+  h1
+    border-left: 8px solid $light-text
+    padding-left: 20px
+  p
+    color: $light-text
+    padding-top: 4%
+
+.macbook
+  max-width: 100%
+
+#portfolio
+  background-color: $light-text
+  color: $main
+
+  h1
+    border-left: 8px solid $main
+    padding-left: 20px
+
+  p
+    color: $dark-text
+    padding-top: 4%
+
+.carousel-caption
+  .btn-default
+    background: $light-text !important
+    color: $dark-text !important
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3)
+    margin-bottom: 10px
+
+#contact
+  background-color: $light-text
+  color: $main
+
+  h1
+    border-left: 8px solid $main
+    padding-left: 20px
+
+  p
+    color: $dark-text
+    padding-top: 4%
+
+  li
+    color: $dark-text
+
+.list-group
+  margin-top: 4%
+
+.list-group-item
+  a
+    color: $dark-text !important
+
+form
+  margin-top: 12%
+  color: $dark-text
+
+.btn-long
+  width: 100%
+/*vMAKING DA CONTAINER SMALLER */
+@media (min-width: 1200px)
+  .container-fluid
+    max-width: 970px
