@@ -1,7 +1,11 @@
+/* Global Styles */
+
 body, html {
   padding: 0;
   margin: 0;
   background: #ededed;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
 *, *:before, *:after {
@@ -13,9 +17,68 @@ body, html {
   margin: 0 auto;
 }
 
+/* End Global Styles */
+
+/* Splash Styles */
+
 .splash-header {
   height: 100vh;
-  background: url('img/splash-2.jpg') no-repeat;
+  background: url('img/splash-bg.jpg') no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: 0;
+  animation: headerFadeIn 1s ease-in-out;
+  text-align: center;
+}
+
+  .splash-logo {
+    height: 100vh;
+    background: url('img/splash-logo.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 999;
+    animation: logoSlide 1700ms ease-in-out;
+  }
+
+/* End Splash Styles */
+
+/* Portfolio Styles */
+
+.portfolio {
+  height: 100vh;
+  background: #ededed;
+  font-size: 0;
+}
+
+  .work-card {
+    display: inline-block;
+    margin: 0.5%;
+    padding: 0;
+    width: 24%;
+    height: 50%;
+    background: #fff;
+    z-index: 0;
+  }
+
+    .work-card:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      z-index: 999;
+    }
+
+/* End Portfolio Styles */
+
+
+
+/* Animations */
+
+@keyframes logoSlide {
+  0% {transform: scale(0); opacity: 0;}
+  60% {transform: scale(0); opacity: 0;}
+  90% {transform: scale(1.2); opacity: 1;}
+  100% {transform: scale(1); opacity: 1;}
+}
+
+@keyframes headerFadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
