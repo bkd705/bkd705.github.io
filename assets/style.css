@@ -37,7 +37,7 @@ body, html {
     background-position: center;
     background-size: cover;
     z-index: 999;
-    animation: logoSlide 1700ms ease-in-out;
+    animation: logoSlide 1400ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
   }
 
 /* End Splash Styles */
@@ -45,25 +45,9 @@ body, html {
 /* Portfolio Styles */
 
 .portfolio {
-  height: 100vh;
-  background: #ededed;
-  font-size: 0;
+  width: 1024px;
+  margin: 0 auto;
 }
-
-  .work-card {
-    display: inline-block;
-    margin: 0.5%;
-    padding: 0;
-    width: 24%;
-    height: 50%;
-    background: #fff;
-    z-index: 0;
-  }
-
-    .work-card:hover {
-      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-      z-index: 999;
-    }
 
 /* End Portfolio Styles */
 
@@ -73,8 +57,7 @@ body, html {
 
 @keyframes logoSlide {
   0% {transform: scale(0); opacity: 0;}
-  60% {transform: scale(0); opacity: 0;}
-  90% {transform: scale(1.2); opacity: 1;}
+  50% {transform: scale(0); opacity: 0;}
   100% {transform: scale(1); opacity: 1;}
 }
 
