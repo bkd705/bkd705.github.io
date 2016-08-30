@@ -49,6 +49,27 @@ body, html {
   margin: 0 auto;
 }
 
+.grid {
+  font-size: 0;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 25%;
+}
+
+.grid-item img {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 /* End Portfolio Styles */
 
 
