@@ -3,18 +3,30 @@
 body, html {
   padding: 0;
   margin: 0;
-  background: #ededed;
-  font-family: 'Open Sans', sans-serif;
-  color: #fff;
+  background: #fff;
+  font-family: 'Hind', sans-serif;
+  color: #1e1e1f;
 }
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-.content-container {
-  width: 1024px;
+.container {
+  width: 95%;
   margin: 0 auto;
+  padding-top: 105vh;
+}
+
+.left-container {
+  width: 50%;
+  float: left;
+  position: fixed;
+}
+
+.right-container {
+  width: 50%;
+  margin-left: 50%;
 }
 
 /* End Global Styles */
@@ -45,8 +57,9 @@ body, html {
 /* Portfolio Styles */
 
 .portfolio {
-  width: 1024px;
-  margin: 0 auto;
+  max-height: 100vh;
+  float: left;
+  overflow: hidden;
 }
 
 .grid {
@@ -55,7 +68,7 @@ body, html {
 
 .grid-sizer,
 .grid-item {
-  width: 25%;
+  width: 50%;
 }
 
 .grid-item img {
@@ -72,7 +85,19 @@ body, html {
 
 /* End Portfolio Styles */
 
+/* Info Styles */
 
+.info-title {
+  font-size: 1.5em;
+  line-height: 0;
+}
+
+.info-subtitle {
+  font-size: 1.2em;
+
+}
+
+/* End Info Styles */
 
 /* Animations */
 
