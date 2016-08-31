@@ -19,40 +19,26 @@ body, html {
 }
 
 .left-container {
-  width: 50%;
+  width: 40%;
   float: left;
   position: fixed;
 }
 
 .right-container {
-  width: 50%;
-  margin-left: 50%;
+  width: 60%;
+  margin-left: 40%;
 }
 
 /* End Global Styles */
 
-/* Splash Styles */
+/* Nav Styles */
 
-.splash-header {
-  height: 100vh;
-  background: url('img/splash-bg.jpg') no-repeat;
-  background-position: center;
-  background-size: cover;
-  z-index: 0;
-  animation: headerFadeIn 1s ease-in-out;
-  text-align: center;
-}
-
-  .splash-logo {
+  .navigation {
+    background: #017AF5;
     height: 100vh;
-    background: url('img/splash-logo.png') no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index: 999;
-    animation: logoSlide 1400ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
   }
 
-/* End Splash Styles */
+/* End Nav Styles */
 
 /* Portfolio Styles */
 
