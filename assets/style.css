@@ -1,99 +1,170 @@
 /* Global Styles */
 
 body, html {
+  font-family: 'Fira Sans', sans-serif;
+  color: #fff;
   padding: 0;
   margin: 0;
-  background: #fff;
-  font-family: 'Hind', sans-serif;
-  color: #1e1e1f;
 }
 
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
-.container {
-  width: 95%;
-  margin: 0 auto;
-  padding-top: 105vh;
+/* START FULL SPLASH STYLES */
+
+.splash {
+  display: flex;
+  height: 100vh;
+  background: url('img/shoes-full-big.png') no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
-.left-container {
-  width: 40%;
-  float: left;
-  position: fixed;
-}
-
-.right-container {
-  width: 60%;
-  margin-left: 40%;
-}
-
-/* End Global Styles */
-
-/* Nav Styles */
-
-  .navigation {
-    background: #017AF5;
-    height: 100vh;
+  .splash--heading {
+    font-weight: 300;
+    font-size: 4rem;
+    color: #F2D122;
   }
 
-/* End Nav Styles */
+  .splash--divider {
+    width: 40%;
+    background-color: #F2D122;
+    height: 2px;
+    border: none;
+    margin-top: -45px;
+  }
 
-/* Portfolio Styles */
+  .splash--profile-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-.portfolio {
-  max-height: 100vh;
-  float: left;
-  overflow: hidden;
+    .splash--link-icon {
+      display: flex;
+      justify-content: space-around;
+      margin: 25px 60px;
+      list-style: none;
+    }
+
+      .splash--link-icon img {
+        width: 64px;
+      }
+
+  .splash--button {
+    display: flex;
+    border: 1px solid #F2D122;
+    border-radius: 5px;
+    padding: 10px 50px;
+    color: #F2D122;
+    text-decoration: none;
+    margin-top: 150px;
+  }
+
+    .splash--button:hover {
+      background: #F2D112;
+      color: #000;
+    }
+ /* END FULL SPLASH STYLES */
+
+ /* START QUARTER SPLASH STYLES */
+
+  .blog-active {
+    height: 285px;
+    background-position: center;
+  }
+
+  .splash--heading__blog {
+    font-size: 3rem;
+  }
+
+  .splash--divider__blog {
+    margin-top: -25px;
+    width: 500px;
+  }
+
+  .splash--button__blog {
+    display: none;
+  }
+
+  .splash--link-icon__blog {
+    margin: 25px 30px;
+  }
+
+  .splash--link-icon__blog img {
+    width: 48px;
+  }
+
+/* END QUARTER SPLASH STYLES */
+
+/* START BLOG STYLES */
+
+.blog {
+  color: #1D1E30;
+  width: 500px;
+  margin: 0 auto;
 }
 
-.grid {
-  font-size: 0;
+  .blog--heading {
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  .blog--divider {
+    width: 200px;
+    float: left;
+    margin-top: -20px;
+    border: none;
+    background: #1D1E30;
+    height: 1px;
+  }
+
+.post--wrapper {
+  margin-bottom: 50px;
+}
+.post--heading {
+  font-weight: 400;
+  font-size: 24px;
 }
 
-.grid-sizer,
-.grid-item {
-  width: 50%;
+.post--meta {
+  color: #4E4F69;
+  font-weight: 300;
+  margin-top: -30px;
 }
 
-.grid-item img {
-  min-width: 100%;
-  max-width: 100%;
+.post--content {
+  font-weight: 300;
 }
 
-/* clearfix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
+/* END BLOG STYLES */
+
+/* START FOOTER STYLES */
+
+footer {
+  height: 250px;
+  background: url('img/six-splash-big.png');
+  background-size: cover;
+  background-position: top;
+  text-align: center;
 }
 
-/* End Portfolio Styles */
-
-/* Info Styles */
-
-.info-title {
-  font-size: 1.5em;
-  line-height: 0;
+footer a {
+  text-decoration: none;
+  color: #1D1E30;
+  font-size: 38px;
 }
 
-.info-subtitle {
-  font-size: 1.2em;
-
+.email {
+  padding-top: 75px;
 }
 
-/* End Info Styles */
 
-/* Animations */
+@media only screen and (max-width: 640px) {
 
-@keyframes logoSlide {
-  0% {transform: scale(0); opacity: 0;}
-  50% {transform: scale(0); opacity: 0;}
-  100% {transform: scale(1); opacity: 1;}
-}
-
-@keyframes headerFadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
 }
