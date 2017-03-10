@@ -1,7 +1,9 @@
 ---
 layout: post
 title: My First Post
+subtitle: A sick blog post talking about blogs
 categories: blog
+thumb: http://placehold.it/300x150
 ---
 
 Nam elit purus, tempus vel velit non, laoreet tempus ligula. Suspendisse eu condimentum urna.

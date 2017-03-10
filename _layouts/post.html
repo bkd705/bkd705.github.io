@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body>
+    <section class="hero is-danger is-medium is-bold" style="background: url('{{ page.thumb }}') no-repeat; background-size: cover;">
+      <div class="hero-head">
+        {% include header.html %}
+      </div>
 
-{% include header.html %}
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            {{ page.title }}
+          </h1>
+          <h2 class="subtitle">
+            {{ page.subtitle }}
+          </h2>
+          <p>{{ page.date | date_to_string }}</p>
+        </div>
+      </div>
+    </section>
 
-<main class="post--content">
-  <p class="post--date">{{ page.date | date_to_string }}</p>
-
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.excerpt }}</p>
-
-  {{ content }}
-</main>
-
-{% include footer.html %}
-
-</body>
+    <main>
+      <div class="container">
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

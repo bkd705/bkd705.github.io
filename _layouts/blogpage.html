@@ -1,32 +1,46 @@
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body>
+    <section class="hero is-danger is-medium is-bold">
+      <div class="hero-head">
+        {% include header.html %}
+      </div>
 
-{% include header.html %}
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">
+            {{ site.title }}
+          </h1>
+          <h2 class="subtitle">
+            Notes
+          </h2>
+        </div>
+      </div>
+    </section>
 
-<div id="content">
-  {% if site.posts.size > 0 %}
-    <ul>
-    {% for post in site.posts %}
-      {% if post.categories contains 'blog' %}
-        <li>
-        <a href="{{ post.url }}">
-          <h2>{{ post.title }}</h2>
-        </a>
-        <p>{{ post.excerpt }}</p>
-      </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  {% else %}
-    <p>There are no posts available right. Come back soon!</p>
-  {% endif %}
-</div>
-
-{% include footer.html %}
-
-</body>
+    <main>
+      <div class="container">
+        {% if site.posts.size > 0 %}
+        <div class="columns">
+        {% for post in site.posts %}
+          {% if post.categories contains 'blog' %}
+            <div class="column is-one-third content">
+              <figure class="image is-2by1">
+                <img src="{{ post.thumb }}" alt="{{ post.title }}">
+              </figure>
+              <h2><a class="is-medium" href="{{ post.url }}">{{ post.title }}</a></h2>
+              <p>{{ post.excerpt }}</p>
+            </div>
+            {% endif %}
+          {% endfor %}
+          </div>
+        {% else %}
+          <p>There are no posts available right. Come back soon!</p>
+        {% endif %}
+      </div>
+    </main>
+  </body>
 </html>

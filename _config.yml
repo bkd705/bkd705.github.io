@@ -6,7 +6,7 @@ subtitle: 'compsci student & javascript aficionado'
 
 
 nav:
-- { title: 'Welcome',              href: '/' }
+- { title: 'Home',              href: '/' }
 - { title: 'Blog',                 href: '/blog.html' }
 
 
