@@ -17,7 +17,7 @@ markdown: kramdown
 permalink: /:year/:slug
 
 sass:
-  sass_dir: css
+  sass_dir: _sass
   style:    expanded
 
 exclude:
