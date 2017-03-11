@@ -3,6 +3,7 @@ title: How To Learn React
 date: 2017-03-10 23:21
 subtitle: A post on some good resources to learn ReactJS!
 categories: blog
+thumb: https://www.syncano.io/blog/content/images/2016/02/reactjs.jpg
 ---
 I always had trouble finding the best resources to learn new stuff. With the internet it is so hard to find the \"correct\" most up to date tutorial because of the vast amount of resources, and the newer, up to date tutorials usually being clouded over by the established tutorials and with a fast moving ecosystem like the one around JavaScript, the established tutorials might be out of date, and could possibly leave you hanging. So I figured, I would put the best tutorials that I used, that have the most accurate, up to date information!
 
