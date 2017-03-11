@@ -32,7 +32,7 @@ This course by LearnCode.academy is a really great introduction course to React.
 
 This is a really great introduction course to React, every concept is really well explained and demonstrated. This playlist is a great way to learn React as you are learning best practices and ES6 code right from the start aswell as proper folder structure (which really is a big deal). I learned React using the ```<script></script>``` tags in the HTML document with ```React.createClass({})``` and it really mad it a bit more complicated to switch over to the ES6 standard. The best way to learn something is always to learn it the way it is currently used in production, and that is why this is usually the first course I recommend people to learn when learning React.
 
-##[Learn Redux with Wes Bos](https://www.youtube.com/playlist?list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr6jy)
+## [Learn Redux with Wes Bos](https://www.youtube.com/playlist?list=PLu8EoSxDXHP5uyzEWxdlr9WQTJJIzr6jy)
 
 ![Learn Redux thumbnail](https://i.ytimg.com/vi/sAzh8t1H0p4/maxresdefault.jpg)
 
@@ -48,7 +48,7 @@ Rem has a lot of experience building web applications, if you look through his v
 
 Rem has been my go to for learning more advanced or newer React/Redux concepts. His videos can be a bit quick, and you will probably have to pause and reverse a bit to grasp the concepts, but I can't explain well enough how good the knowledge you gain is, and how good the videos are. The rest of this post will most likely be his videos, and I swear I have no partnership (but maybe we should ;)), his videos are just that great and I think you just have to watch them for yourself.
 
-##[Crud with Redux with Rem Zolotykh](https://www.youtube.com/watch?v=h1ivekTEC2M)
+## [Crud with Redux with Rem Zolotykh](https://www.youtube.com/watch?v=h1ivekTEC2M)
 
 ![Crud with Redux thumbnail](http://remzolotykh.net/content/images/2016/11/thumbnail.png)
 
