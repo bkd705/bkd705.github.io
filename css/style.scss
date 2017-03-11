@@ -7,6 +7,32 @@
 #       style:    expanded
 ---
 
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site__content {
+  flex: 1;
+}
+
 main {
-  margin-top: 50px;
+  margin: 50px 0;
+}
+
+footer.post-footer {
+  padding-bottom: 0;
+}
+
+footer.footer {
+  padding-bottom: 40px;
+}
+
+.social-links .icon {
+  margin-left: 15px;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
 }

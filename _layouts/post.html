@@ -3,31 +3,34 @@
 
   {% include head.html %}
 
-  <body>
-    <section class="hero is-danger is-medium is-bold" style="background: url('{{ page.thumb }}') no-repeat; background-size: cover;">
-      <div class="hero-head">
-        {% include header.html %}
-      </div>
-
-      <div class="hero-body">
-        <div class="container has-text-centered">
-          <h1 class="title">
-            {{ page.title }}
-          </h1>
-          <h2 class="subtitle">
-            {{ page.subtitle }}
-          </h2>
-          <p>{{ page.date | date_to_string }}</p>
+  <body class="site">
+    <div class="site__content">
+      <section class="hero is-danger is-medium is-bold" style="background: url('{{ page.thumb }}') no-repeat; background-size: cover;">
+        <div class="hero-head">
+          {% include header.html %}
         </div>
-      </div>
-    </section>
 
-    <main>
-      <div class="container">
-        <div class="content">
-          {{ content }}
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title">
+              {{ page.title }}
+            </h1>
+            <h2 class="subtitle">
+              {{ page.subtitle }}
+            </h2>
+            <p>{{ page.date | date_to_string }}</p>
+          </div>
         </div>
-      </div>
-    </main>
+      </section>
+
+      <main>
+        <div class="container">
+          <div class="content">
+            {{ content }}
+          </div>
+        </div>
+      </main>
+    </div>
+    {% include post-footer.html %}
   </body>
 </html>
