@@ -33,7 +33,7 @@
                   <img src="{{ post.thumb }}" alt="{{ post.title }}">
                 </figure>
                 <h2><a class="is-medium" href="{{ post.url }}">{{ post.title }}</a></h2>
-                <p>{{ post.excerpt }}</p>
+                <p>{{ post.excerpt | strip_html }}</p>
               </div>
               {% endif %}
             {% endfor %}
