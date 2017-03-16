@@ -3,7 +3,7 @@ title: Learning Rails
 date: 2017-03-10 23:37
 subtitle: Short blurb on my adventure learning rails.
 categories: blog
-thumb:
+thumb: 
 ---
 Welcome back me. I haven't written one of these in a bit, but now, I am learning rails, and I am going to share my experience so far!
 
