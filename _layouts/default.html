@@ -27,7 +27,7 @@
           {% if site.posts.size > 0 %}
           <div class="columns">
           {% for post in site.posts %}
-            {% if post.categories contains 'project' %}
+            {% if post.categories contains 'blog' %}
               <div class="column is-one-third content">
                 <figure class="image is-2by1">
                   <img src="{{ post.thumb }}" alt="{{ post.title }}">
