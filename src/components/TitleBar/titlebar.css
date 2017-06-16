@@ -1,0 +1,14 @@
+.title-bar h1, .title-bar h3 {
+  line-height: 1;
+}
+
+.title-bar h1 {
+  margin-bottom: 0;
+}
+
+.title-bar h3 {
+  margin-top: 10px;
+}
+
+
+
