@@ -1,7 +1,13 @@
+// @flow
 import React from 'react'
+import type { Element } from 'react'
 import './sociallinks.css'
 
-const TwitterLink = ({ account }) => {
+type linkType = {
+  account: string
+}
+
+const TwitterLink = ({ account }: linkType): Element<any> => {
   return (
     <p>
       <strong>Twitter:</strong>
@@ -16,7 +22,7 @@ const TwitterLink = ({ account }) => {
   )
 }
 
-const LinkedInLink = ({ account }) => {
+const LinkedInLink = ({ account }: linkType): Element<any> => {
   return (
     <p>
       <strong>LinkedIn:</strong>
@@ -31,7 +37,7 @@ const LinkedInLink = ({ account }) => {
   )
 }
 
-const GithubLink = ({ account }) => {
+const GithubLink = ({ account }: linkType): Element<any> => {
   return (
     <p>
       <strong>Github:</strong>
@@ -46,7 +52,17 @@ const GithubLink = ({ account }) => {
   )
 }
 
-const SocialLinks = ({ twitter, linkedin, github }) => {
+type socialLinksType = {
+  twitter?: string,
+  linkedin?: string,
+  github?: string
+}
+
+const SocialLinks = ({
+  twitter,
+  linkedin,
+  github
+}: socialLinksType): Element<any> => {
   const twitterLink = twitter ? <TwitterLink account={twitter} /> : ''
   const linkedInLink = linkedin ? <LinkedInLink account={linkedin} /> : ''
   const githubLink = github ? <GithubLink account={github} /> : ''

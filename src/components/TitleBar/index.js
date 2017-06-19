@@ -1,7 +1,19 @@
+// @flow
 import React from 'react'
+import type { Element } from 'react'
 import './titlebar.css'
 
-const TitleBar = ({ heading, subheading, style }) => {
+type titleBarType = {
+  heading: string,
+  subheading?: string,
+  style?: Object
+}
+
+const TitleBar = ({
+  heading,
+  subheading,
+  style
+}: titleBarType): Element<any> => {
   return (
     <div className="title-bar" style={style}>
       <h1>{heading}</h1>

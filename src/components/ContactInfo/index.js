@@ -1,7 +1,14 @@
+// @flow
 import React from 'react'
+import type { Element } from 'react'
 import './contactinfo.css'
 
-const ContactInfo = ({ phone, email }) => {
+type contactInfoType = {
+  phone: string,
+  email: string
+}
+
+const ContactInfo = ({ phone, email }: contactInfoType): Element<any> => {
   return (
     <div className="contact-info">
       <p><strong>E-Mail:</strong> <a href={`mailto:${email}`}>{email}</a></p>

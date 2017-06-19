@@ -1,9 +1,10 @@
+// @flow
 import React, { Component } from 'react'
 import { Router, Route } from 'react-router'
 import createHistory from 'history/createBrowserHistory'
 import Home from './pages/Home'
 
-const history = createHistory()
+const history: Object = createHistory()
 
 class App extends Component {
   render() {
