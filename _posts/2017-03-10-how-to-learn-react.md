@@ -1,6 +1,6 @@
 ---
 title: How To Learn React
-date: 2017-03-10 23:21
+date: 2017-03-10 00:00:00 +0000
 subtitle: A post on some good resources to learn ReactJS!
 categories: blog
 thumb: https://www.syncano.io/blog/content/images/2016/02/reactjs.jpg

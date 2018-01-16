@@ -1,0 +1,18 @@
+---
+pages:
+- _posts/2017-03-16-design-for-code.md
+- _posts/2017-03-10-how-to-learn-react.md
+hide_body: false
+fields:
+- type: text
+  name: layout
+- type: text
+  name: title
+- type: text
+  name: subtitle
+- type: text
+  name: categories
+- type: text
+  name: thumb
+- type: datetime
+  name: date

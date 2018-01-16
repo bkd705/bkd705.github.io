@@ -1,6 +1,6 @@
 ---
 title: Design For Code
-date: 2017-03-16 00:06
+date: 2017-03-16 00:00:00 +0000
 subtitle: The struggle with picking a name...
 categories: blog
 thumb: http://i.imgur.com/1l2856f.jpg
